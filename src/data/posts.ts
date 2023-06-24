@@ -4,7 +4,7 @@ export const posts: Post[] = [
     {
       id: 1,
       author: {
-        avatarUrl: "https://i.pravatar.cc/300?1",
+        avatarUrl: "img/02.jpeg",
         name: "Eliane Rebeca Ferreira",
         role: "CTO"
       },
@@ -21,7 +21,7 @@ export const posts: Post[] = [
     {
       id: 2,
       author: {
-        avatarUrl: "https://i.pravatar.cc/300?2",
+        avatarUrl: "img/04.jpeg",
         name: "Kamilly Aline Teixeira",
         role: "CFO"
       },

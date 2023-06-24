@@ -41,7 +41,7 @@ export function Post(props: PostProps) {
       }
     };
 
-    let commentsWithNewOne: CommentProps[] = [...comments];
+    const commentsWithNewOne: CommentProps[] = [...comments];
     commentsWithNewOne.push(newComment);
     commentsWithNewOne.sort((a: CommentProps, b: CommentProps) => b.comment.publishedAt.getTime() - a.comment.publishedAt.getTime());
 
