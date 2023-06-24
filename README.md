@@ -1,11 +1,17 @@
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<div align="center">
+
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
+  [![LinkedIn][linkedin-shield]][linkedin-url]
+  [![Instagram][instagram-shield]][instagram-url]
+  [![Facebook][facebook-shield]][facebook-url]
+  
+</div>
 
 <br />
 
@@ -17,226 +23,198 @@
   <h3 align="center">ReactJS Ignite Feed @Rocketseat</h3>
 
   <p align="center">
-    This project was created while studying on course from Rocketseat 
+    Este projeto foi criado durante o curso da Rocketseat
     <br />
     <a href="https://github.com/luqholanda">
-        <strong>Explore more projects »</strong>
+        <strong>Explore mais projetos »</strong>
     </a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://reactjs-ignite-feed.lucasholanda.com/" target="_blank">Ver demonstração</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/luqholanda/reactjs-ignite-feed/issues">Reportar bugs</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/luqholanda/reactjs-ignite-feed/issues">Request Feature</a>
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Conteúdo</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Sobre este projeto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Desenvolvido com</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Iniciando</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Pré Requisitos</a></li>
+        <li><a href="#installation">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Como usar</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contributing">Contribuição</a></li>
+    <li><a href="#license">Licença</a></li>
+    <li><a href="#contact">Contato</a></li>
+    <li><a href="#acknowledgments">Conhecimento</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre este projeto:
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Ignite Feed][product-screenshot]](https://reactjs-ignite-feed.lucasholanda.com/)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Este projeto tem como intuito um exemplo de painel de postagens com comentários, semelhante ao que o twitter fornece.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Objetos de Estudo:
+* :jigsaw: Componentes
+* :link: Comunicação entre componentes
+* :round_pushpin: Controle de Estados
+* ::memo: Formulários
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Este template pode servir como base de estudo para criação de outros projetos utilizando a mesma idéia principal.
 
-Use the `BLANK_README.md` to get started.
+Verifique o arquivo `App.tsx` para iniciar.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Construído com:
 
+Esta seção você poderá verificar as tecnologias utilizadas neste projeto
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Vite][Vite]][Vite-url]
+* [![TypeScript][TypeScript]][TypeScript-url]
+* [![CSS3][CSS3]][CSS3-url]
+* [![npm][NPM]][npm-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Iniciando
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Aqui você encontrará um resumo básico com um passo a passo de como executar esta aplicação localmente. Serão apenas alguns passos simples até você conseguir iniciar o seu desenvolvimento.
 
-### Prerequisites
+### :straight_ruler: Pré-requisitos
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
-  npm install npm@latest -g
+  npm run dev
   ```
 
-### Installation
+### :hammer: Instalação
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone o repositório
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git@github.com:luqholanda/reactjs-ignite-feed.git
    ```
-3. Install NPM packages
+2. Instale as dependências do projeto
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Execute o servidor localmente
+   ```sh
+   npm run dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
-## Usage
+## :computer: Uso
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Este template poderá ser utilizado como um exemplo de Blog Post para seus projetos.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
-## Roadmap
+## :dart: Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Criação do projeto
+- [x] Criação do Template (@Rocketseat)
+- [x] Criação dos Componentes
+- [x] Comunicação entre componentes
+- [x] Criação dos Estados dos componentes
+- [ ] Suporte multi idioma
+    - [x] Portugues Brasil
+    - [ ] Inglês
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+Veja os [problemas abertos](https://github.com/luqholanda/reactjs-ignite-feed/pulls) para verificar os possíveis problemas e soluções propostas.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
-## Contributing
+## :wrench: Contribuição
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+As contribuições é o que fazem a comunidade continuar viva, forte, e sempre criando novas possibilidades. Qualquer contribuição que você fizer, será **muito bem vinda**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Se você tiver alguma dúvida ou gostaria de nos ajudar, faça um fork do projeto, crie sua funcionalidade e abra um pull request para analisarmos sua ideia!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Se possível, nos dê uma estrela no projeto, assim nos faz ter motivação para continuar criando mais projetos como o demonstrado aqui.
+
+Como contribuir com o projeto?
+
+1. Faça o Fork do projeto
+2. Crie sua feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4. Realize o push de sua branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
-## License
+## :spiral_notepad:	Licença
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distribuido de acordo com a licença MIT. Você poderá, sem restrição, incluindo sem limitação os direitos a usar, copiar, modificar, mesclar, publicar, distribuir, vender copias do software aqui apresentados.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
-## Contact
+## :envelope: Contato
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Lucas Holanda - [@luqhh](https://twitter.com/luqhh) - lucas@sollutie.com.br
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Project Link: [https://github.com/luqholanda/reactjs-ignite-feed](https://github.com/luqholanda/reactjs-ignite-feed)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/luqholanda/reactjs-ignite-feed.svg?style=for-the-badge
+[contributors-url]: https://github.com/luqholanda/reactjs-ignite-feed/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/luqholanda/reactjs-ignite-feed.svg?style=for-the-badge
+[forks-url]: https://github.com/luqholanda/reactjs-ignite-feed/network/members
+[stars-shield]: https://img.shields.io/github/stars/luqholanda/reactjs-ignite-feed.svg?style=for-the-badge
+[stars-url]: https://github.com/luqholanda/reactjs-ignite-feed/stargazers
+[issues-shield]: https://img.shields.io/github/issues/luqholanda/reactjs-ignite-feed.svg?style=for-the-badge
+[issues-url]: https://github.com/luqholanda/reactjs-ignite-feed/issues
+[license-shield]: https://img.shields.io/github/license/luqholanda/reactjs-ignite-feed.svg?style=for-the-badge
+[license-url]: https://github.com/luqholanda/reactjs-ignite-feed/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
+[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=for-the-badge&logo=facebook&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/luqh/
-[product-screenshot]: images/screenshot.png
+[instagram-url]: https://www.instagram.com/luqhh/
+[facebook-url]: https://www.facebook.com/luqqen
+[product-screenshot]: public/frame-safari-dark.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev
+[TypeScript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[TypeScript-url]: https://www.typescriptlang.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[CSS3-url]: https://www.w3schools.com/css/
+[NPM]: https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white
+[NPM-url]: npmjs.com
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
