@@ -8,5 +8,7 @@
 .avatar.outline {
     width: calc(3rem + 12px);
     height: calc(3rem + 12px);
-    outline: 2px solid var(--green-500);
+    border: 2px solid var(--green-500);
+    border-radius: 8px;
+    padding: 1px;
 }
