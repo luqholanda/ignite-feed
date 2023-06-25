@@ -75,7 +75,7 @@ Objetos de Estudo:
 * :jigsaw: Componentes
 * :link: Comunicação entre componentes
 * :round_pushpin: Controle de Estados
-* ::memo: Formulários
+* :memo: Formulários
 
 Este template pode servir como base de estudo para criação de outros projetos utilizando a mesma idéia principal.
 
@@ -110,7 +110,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### :hammer: Instalação
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Logo abaixo você verá as instruções básicas de como executar o projeto localmente._
 
 1. Clone o repositório
    ```sh
